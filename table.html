@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html>
+	<body>
+	<head>
+		<title>Tables</title>
+		<style>
+			tr,td,th{
+				padding:20px;
+				margin:30px;
+				border:2px solid black;
+				}
+			table{
+				border:2px solid black; 
+				border-spacing:5px;
+				border-collapse:collapse;
+				}
+			#t01{
+				background-color:lightgray;
+				}
+		</style>
+	</head>
+		
+		<table>
+			<caption>Student marks</caption>
+			<tr>
+				<th>Name</th>
+				<th>Roll No</th>
+				<th colspan="2">Marks</th>
+			</tr>
+			<tr>
+				<td rowspan="2">Shubham</td>
+				<td>001</td>
+				<td>90</td>
+				<td>82</td>
+			</tr>
+			<tr>
+				<td>032</td>
+				<td>90</td>
+				<td>80</td>
+			</tr>
+			<tr>
+				<td>Sourabh</td>
+				<td>002</td>
+				<td>88</td>
+				<td>80</td>
+			</tr>
+		</table>
+		<br>
+		<table id="t01">
+		  <tr>
+			<th>Firstname</th>
+			<th>Lastname</th> 
+			<th>Age</th>
+		  </tr>
+		  <tr>
+			<td>Shubham</td>
+			<td>Kamthe</td>
+			<td>26</td>
+		  </tr>
+		  <tr>
+			<td>Sourabh</td>
+			<td>Kamthe</td>
+			<td>22</td>
+		  </tr>
+		  <tr>
+			<td>Padmakar</td>
+			<td>Kamthe</td>
+			<td>55</td>
+		  </tr>
+		</table>
+
+		
+	</body>
+</html>
